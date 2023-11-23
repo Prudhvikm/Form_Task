@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container cont-size border border-dark border border-1 mt-2">
+        <div class="row">
+            <form class="container-fluid mt-2">
+                <label for="name"><strong>Name</strong></label>
+                <span style="color: red;">*</span> <br>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-6 col-xxl-6">
+                        <input class="container" type ="text" required ><br><span class="fs-6">First</span>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-6 col-xxl-6">
+                        <input class="container" type ="text" required ><br><span class="fs-6">Last</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="email"><strong>Email</strong>
+                    <span style="color: red;">*</span></label>
 
+                </div>
+                <div><input class="container" type="email" required></div>
+                <div class="row mt-1">
+                    <label for="experince"><strong>Your Experience</strong>
+                    <span style="color: red;">*</span></label>
+                </div>
+                <div class="container d-flex mt-200">
+                    <div class="row">
+                        <div class = "col-md-12 star">
+                            <form action="">
+                                <input class="star star-5" id="star-5" type="radio" name="star" checked>
+                                <label class="star star-5" for="star-5"></label>
+                                <input class="star star-4" id="star-4" type="radio" name="star" >
+                                <label class="star star-4" for="star-4"></label>
+                                <input class="star star-3" id="star-3" type="radio" name="star" >
+                                <label class="star star-3" for="star-3"></label>
+                                <input class="star star-2" id="star-2" type="radio" name="star" >
+                                <label class="star star-2" for="star-2"></label>
+                                <input class="star star-1" id="star-1" type="radio" name="star" >
+                                <label class="star star-1" for="star-1"></label>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="ex-font">overall,how would you rate your experiencewith us?</p>
+                </div>
+                <div class="row">
+                    <label class="mt-0" for="text"><strong>How satisfied are you with</strong>
+                    <span style="color: red;">*</span></label>
+                </div>
+                <div class="row table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl table-responsive-xxl">
+                    <table class="table table-borderless table table-striped ex-font mt-0 pt-0">
+                        <thead class="">
+                            <tr>
+                                <td scope="col"></th>
+                                <td scope="col">Very Unsatisfied</td>
+                                <td scope="col">Unsatisfied</td>
+                                <td scope="col">Netural</td>
+                                <td scope="col">satisfied</td>
+                                <td scope="col">Very satisfied</td>
+                                
+                             </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope ="row">Purchase</th>
+                                 <td><input type="radio"></td>
+                                 <td><input type="radio"></td>   
+                                 <td><input type="radio"></td>   
+                                 <td><input type="radio"></td>
+                                 <td><input type="radio"></td>         
+                            </tr>
+                            <tr>
+                                <td scope ="row">Service</th>
+                                <td><input type="radio"></td>
+                                <td><input type="radio"></td>   
+                                <td><input type="radio"></td>   
+                                <td><input type="radio"></td>
+                                <td><input type="radio"></td>
+
+                            </tr>
+                            <tr>
+                                <td scope ="row">Company Overeall</th>
+                                <td><input type="radio"></td>
+                                <td><input type="radio"></td>   
+                                <td><input type="radio"></td>   
+                                <td><input type="radio"></td>
+                                <td><input type="radio"></td>
+                            </tr>
+
+                            <tr><td scope="row" class="trans " ><strong >How likely are you to</strong>
+                                <span style="color: red;">*</span></td></tr>
+
+                                <thead>
+                                    <tr>
+                                        <td scope="col"></th>
+                                        <td scope="col">Very unlikely</th>
+                                        <td scope="col">unlikely</th>
+                                        <td scope="col">Netural</th> 
+                                        <td scope="col">likely</th>
+                                        <td scope="col">Very likely</th>   
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope ="row">Buy from us Again</th>
+                                        <td><input type="radio"></td>
+                                        <td><input type="radio"></td>   
+                                        <td><input type="radio"></td>   
+                                        <td><input type="radio"></td>
+                                        <td><input type="radio"></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope ="row">Recommand our products to others</th>
+                                        <td><input type="radio"></td>
+                                        <td><input type="radio"></td>   
+                                        <td><input type="radio"></td>   
+                                        <td><input type="radio"></td>
+                                        <td><input type="radio"></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope ="row">Recommand our company to others</th>
+                                            <td><input type="radio"></td>
+                                            <td><input type="radio"></td>   
+                                            <td><input type="radio"></td>   
+                                            <td><input type="radio"></td>
+                                            <td><input type="radio"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <label class="mt-0 pt-0" for="text" ><strong>Additional comments or suggestions</strong>
+                                <span style="color: red;">*</span></label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control"></textarea>                                
+                              </div>
+                              <div>
+                                <button class="ex-font btn btn-primary mt-2" required>Submit</button>
+                         </div>  
+                        </tbody>
+
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
